@@ -1,0 +1,6 @@
+{
+  "name": "Weekday",
+  "version": "1.0.0",
+  "description": "week calculator",
+  "main": "index.js",
+  "scripts": {

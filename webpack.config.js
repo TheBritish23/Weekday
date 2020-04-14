@@ -18,7 +18,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
      new CleanWebpackPlugin(),
      new HtmlWebpackPlugin({
-       title: 'T-angle',
+       title: 'Weekday',
        template: './src/Index.html',
        inject: 'body'
      })
