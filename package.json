@@ -1,20 +1,17 @@
 {
   "name": "Weekday",
   "version": "1.0.0",
-  "description": "week calculator",
-  "main": "index.js",
+  "description": "_Using the \"Date\" as well as \"let\" and \"const\" functions, I will make an app for calculating the day for any given date_",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.8",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build": "webpack --mode development",
-    "start": "npm run build & webpack-dev-server --open --mode development",
-    "lint": "eslint src/*.js",
-    "debug": "node --inspect node_modules/.bin/jest --runInBand",
-    "test": "jest --colors"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "4.39.3",
-    "webpack-cli": "^3.3.8"
-  }
+  "license": "ISC"
 }
