@@ -4,7 +4,9 @@
   "description": "_Using the \"Date\" as well as \"let\" and \"const\" functions, I will make an app for calculating the day for any given date_",
   "main": "webpack.config.js",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
   },
