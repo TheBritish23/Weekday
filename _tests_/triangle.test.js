@@ -1,3 +1,5 @@
+import { Triangle } from './../src/triangle.js';
+
 describe('Triangle', () => {
 
 test('should correctly create a triangle object with three lengths', () => {
