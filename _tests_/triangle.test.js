@@ -1,6 +1,10 @@
 describe('Triangle', () => {
 
 test('should correctly create a triangle object with three lengths', () => {
+  var scalTriangle = new Triangle(4,5,7)
+  expect(scalTriangle.checkType()).toEqual("scalene triangle");
+ });
+
 var triangle = new Triangle(2,4,5);
 expect(triangle.side1).toEqual(2);
 expect(triangle.side2).toEqual(4);
