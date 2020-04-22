@@ -5,3 +5,5 @@ import './styles.css';
 
 $(document).ready(function() {
   $("form#7days").submit(function(event) {
+ });
+});
