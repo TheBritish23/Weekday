@@ -7,5 +7,7 @@ $(document).ready(function() {
   $("form#7days").submit(function(event) {
      event.preventDefault();
      let day = $("input#day").val();
+     let month = $("input#month").val();
+     let year = $("input#year").val();
  });
 });
