@@ -5,5 +5,7 @@ import './styles.css';
 
 $(document).ready(function() {
   $("form#7days").submit(function(event) {
+     event.preventDefault();
+     let day = $("input#day").val();
  });
 });
