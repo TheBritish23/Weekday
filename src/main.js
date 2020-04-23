@@ -11,5 +11,7 @@ $(document).ready(function() {
      let year = $("input#year").val();
 
      let userDateinput = new userDate (day, month, year)
+
+     console.log(inputtedUserDate);
  });
 });
