@@ -12,8 +12,10 @@ $(document).ready(function() {
 
      let userDateinput = new userDate (day, month, year)
 
-     console.log(inputtedUserDate);
+     console.log(userDateinput);
 
-     
+     let timeline = (month, day, year);
+
+
  });
 });
