@@ -15,6 +15,7 @@ $(document).ready(function() {
      console.log(userDateinput);
 
      let timeline = (month, day, year);
+     console.log(timeline);
 
 
  });
