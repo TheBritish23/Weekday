@@ -9,5 +9,7 @@ $(document).ready(function() {
      let day = $("input#day").val();
      let month = $("input#month").val();
      let year = $("input#year").val();
+
+     let userDateinput = new userDate (day, month, year)
  });
 });
