@@ -16,7 +16,8 @@ $(document).ready(function() {
 
      let timeline = (month, day, year);
      console.log(timeline);
-     var :( = new Date(timeline)
+     var :( = new Date(timeline);
+     
 
  });
 });
