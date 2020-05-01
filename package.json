@@ -1,8 +1,8 @@
 {
   "name": "Weekday",
   "version": "1.0.0",
-  "description": "_Using the \"Date\" as well as \"let\" and \"const\" functions, I will make an app for calculating the day for any given date_",
-  "main": "webpack.config.js",
+  "description": "Weekday Calculator",
+  "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",
@@ -26,7 +26,7 @@
   "scripts": {
     "test": "jest --colors",
     "build": "webpack --mode development",
-    "start": "npm run build; webpack-dev-server --open --mode development",
+    "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"
   },
   "keywords": [],
