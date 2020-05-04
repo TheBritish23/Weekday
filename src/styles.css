@@ -19,12 +19,15 @@ h1 {
  font-style: italic;
  font-weight: bold;
  color: blue;
+ text-align: center;
 }
 
 p {
   font-weight: bold;
+  text-align: center;
 }
 
 .container {
   font-style: oblique;
+  text-align: center;
 }
