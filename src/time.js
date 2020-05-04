@@ -5,5 +5,5 @@ export function userDate(day, month, year) {
 }
 
 userDate.prototype.watch = function() {
-  if ((this.day > this.month ) {
+  if ((this.day > 31 && this.month > 12 ) {
 };
