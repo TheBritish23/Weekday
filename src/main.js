@@ -2,6 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
+import {userDate} from "./time.js";
 
 $(document).ready(function() {
   $("form#7days").submit(function(event) {
@@ -17,7 +18,10 @@ $(document).ready(function() {
      let timeline = (month, day, year);
      console.log(timeline);
      var type = new Date(timeline);
-    
+     //var daysoweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
+
 
  });
 });

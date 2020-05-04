@@ -5,5 +5,5 @@ export function userDate(day, month, year) {
 }
 
 userDate.prototype.watch = function() {
-  if ((this.side1 !== this.side2) && ((this.side1 !== this.side3)) && ((this.side2 !== this.side3))) {
+  if ((this.day > this.month ) {
 };
