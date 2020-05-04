@@ -1,10 +1,10 @@
-export function Triangle(side1, side2, side3) {
-  this.side1 = side1;
-  this.side2 = side2;
-  this.side3 = side3;
+export function userDate(day, month, year) {
+  this.day = day;
+  this.month = month;
+  this.year = year;
 }
 
-Triangle.prototype.checkType = function() {
+userDate.prototype.watch = function() {
   if ((this.side1 !== this.side2) && ((this.side1 !== this.side3)) && ((this.side2 !== this.side3))) {
    return "scalene triangle";
  } else if ((this.side1 !== this.side2) && ((this.side1 !== this.side3)) && ((this.side2 !== this.side3))) {
