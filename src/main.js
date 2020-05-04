@@ -17,10 +17,7 @@ $(document).ready(function() {
      let timeline = (month, day, year);
      console.log(timeline);
      var type = new Date(timeline);
-     var days'o'week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-
-
+    
 
  });
 });
