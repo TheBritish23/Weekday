@@ -11,9 +11,9 @@ $(document).ready(function() {
      let month = $("input#month").val();
      let year = $("input#year").val();
 
-     let userDateinput = new userDate (day, month, year)
+     let input = new userDate (day, month, year)
 
-     console.log(userDateinput);
+     console.log(input);
 
      let timeline = (month, day, year);
      console.log(timeline);
