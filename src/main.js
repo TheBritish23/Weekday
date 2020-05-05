@@ -10,15 +10,15 @@ $(document).ready(function() {
      let day = $("input#day").val();
      let month = $("input#month").val();
      let year = $("input#year").val();
+     
 
      let input = new userDate (day, month, year)
 
-     console.log(input);
+     console.log(input.watch);
 
      let timeline = (month, day, year);
      console.log(timeline);
      var type = new Date(timeline);
-     //var daysoweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
  });
