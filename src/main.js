@@ -21,7 +21,5 @@ $(document).ready(function() {
      //var daysoweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
-
-
  });
 });
