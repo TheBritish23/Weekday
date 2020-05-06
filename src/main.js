@@ -16,11 +16,10 @@ $(document).ready(function() {
        alert("please enter valid date");
        return
      } else if (day <= 31 && month <= 12 && year <= 2020) {
+       alert("valid date");
       input = new userDate (day, month, year)
        console.log(input, "valid input");
      }
       console.log(input);
-
-      $("#output").text
  });
 });
