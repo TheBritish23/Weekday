@@ -7,19 +7,20 @@ import {userDate} from "./time.js";
 $(document).ready(function() {
   $("form#7days").submit(function(event) {
      event.preventDefault();
+     var input;
      let day = $("input#day").val();
      let month = $("input#month").val();
      let year = $("input#year").val();
-     
 
-     let input = new userDate (day, month, year)
+    if (day > 31 || day <= 0 || month > 12 || month <= 0 || year > 2020) {
+       alert("please enter valid date");
+       return
+     } else if (day <= 31 && month <= 12 && year <= 2020) {
+      input = new userDate (day, month, year)
+       console.log(input, "valid input");
+     }
+      console.log(input);
 
-     console.log(input.watch);
-
-     let timeline = (month, day, year);
-     console.log(timeline);
-     var type = new Date(timeline);
-
-
+      $("#output").text
  });
 });
