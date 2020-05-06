@@ -21,5 +21,7 @@ $(document).ready(function() {
        console.log(input, "valid input");
      }
       console.log(input);
+
+      $("#output").text(input);
  });
 });
