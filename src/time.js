@@ -4,6 +4,6 @@ export function userDate(day, month, year) {
   this.year = year;
 }
 
-userDate.prototype.watch = function() {
-  
+userDate.prototype.all = function() {
+
 }
