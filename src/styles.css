@@ -31,3 +31,9 @@ p {
   font-style: oblique;
   text-align: center;
 }
+
+#output {
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+}
